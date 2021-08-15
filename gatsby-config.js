@@ -40,6 +40,22 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts-v2`,
+      options: {
+        fonts: [
+          {
+            family: "JetBrains Mono",
+            weights: ["100", "400"],
+          },
+          {
+            family: "Roboto Mono",
+            weights: ["100..400"],
+          },
+        ],
+        display: "swap",
+      },
+    },
     "gatsby-plugin-styled-components",
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-sharp",
